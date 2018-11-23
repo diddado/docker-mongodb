@@ -3,7 +3,7 @@ MongoDB
 You need a ```.env``` file to set the required parameters.  It should look like this:
 
 ```bash
-COMPOSE_PROJECT_NAME=mongo4.0 # this should be unique for every version of mysql since the data volume will be persisted and will be named based on this value.
+COMPOSE_PROJECT_NAME=mongo4.0 # this should be unique for every version of mongo since the data volume will be persisted and will be named based on this value.
 MONGO_VERSION=4.0
 MONGO_PORT=27017
 MONGO_INITDB_ROOT_USERNAME=YourMongoAdminUsername
